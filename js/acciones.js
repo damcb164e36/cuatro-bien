@@ -12,10 +12,10 @@ escribehistoria('la app se pauso');
 },false);//pause
 document.addEventListener("resumen",function(){
 escribehistoria('la app se reinicio');
-},false;//resumen
-document.addEventListener("online",funtion(){
+},false);//resume
+document.addEventListener("online",function(){
 escribehistoria('la app se conecto a la red');
-},false;//se conecto
+},false);//se conecto
 document.addEventListener("offline",function(){
 escribehistoria('la app se desconecto de la red');
 },false);//se desconecto
